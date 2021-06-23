@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(https://gulvlageret.dk/media/cache/product_original/product-images/34/71/5/THH_RR_ICONIK_Nero_Marquine_Black_0011594286162.3124.jpg?1594286162);
+	background-color: black;
+	font-size: 100%;
+	font-family: Arial;
+}
+.body{
+	margin: 10px auto;
+	width: 80%;
+	clear: both;
+}
+.mainheader img {
+	width: 100%;
+	border: solid 2px white ;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.nav{
+		text-align: center;
+	background-color: #36454F;
+}
+
+.Fline{
+	list-style: none;
+	font-size: 20px;
+	margin: 0 auto;
+}
+.Fline a {
+	color: white;
+	display: inline-block;
+	padding: 10px 40px;
+	text-decoration: none;
+
+}
+.Fline a:hover {
+	background-color: #7393B3;
+}
+.BS{
+	text-shadow: 2px 2px black;
+}
+/*--------------------------*/
+.dropdown{
+position: relative;
+display: inline-block;
+}
+.dropdownbt{
+	color: white;
+	font-size: 20px;
+	padding: 10px 40px;
+	background-color: #36454F;
+	border: none;
+}
+.dropdown-content {
+	font-size: 15px;
+	list-style: none;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	position: absolute;
+	box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+	display: none;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown:hover .dropdownbt{
+	background-color: #7393B3;
+}
+
+.maincontent{
+	text-align: center;
+}
+.topcontent {
+	text-align: center;
+	margin: 12px ;
+	width: 30%;
+	float:left;
+	border: solid 5px rgba(0, 0, 0, 0);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.D1{
+	background-color:#001d26 ;
+}
+.D2{
+	background-color:#e54d26 ;
+}
+.D3{
+	background-color:#330000  ;
+}
+.D1:hover{
+	border:solid 5px #00c7f7 ;
+}
+.D2:hover{
+	border:solid 5px #ffffff
+}
+.D3:hover{
+	border:solid 5px #ff9a00
+}
+.maincontent h2 {
+	color: white;
+	text-shadow: 2px 2px black;
+	padding: 5px;
+}
+.maincontent img {
+	width: 100%;
+	/*width: 300px;
+	height: 250px;*/
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	 object-fit: cover;
+}
+.maincontent p {
+	color: white;
+	text-shadow: 1px 1px black;
+	background-repeat: no-repeat;
+	padding: 5px;
+	padding-bottom: 19px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*----------------------------------------------------*/
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+/*----------------------------------------------------*/
+@media  (max-width: 1270px) and (min-width: 790px){
+.topcontent {
+	width: 28%;
+}
+}
+@media  (max-width: 790px) and (min-width: 700px) {
+.topcontent {
+	width: 26%;
+}
+}
+@media  (max-width: 700px) and (min-width: 570px){
+.topcontent {
+	margin: 10px uto;
+	width: 100%;
+}
+
+}
+@media  (max-width: 570px) {
+.topcontent {
+	margin: 10px auto;
+	width: 100%;}
+.nav{
+	margin: 0 auto;
+	border: solid 3px white;
+	text-align: center;
+	background-color: #36454F;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.Fline a {
+	display:block;
+}
+}
